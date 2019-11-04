@@ -3,7 +3,7 @@ import morseToEnglish
 root = tk.Tk() 
 root.title("morseCode Program")
 
-
+#returns string
 def getString():
 	englishWord = e1.get()
 	morseWord = morseToEnglish.main(englishWord)

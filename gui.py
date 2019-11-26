@@ -6,7 +6,7 @@ root.title("morseCode Program")
 #returns string
 def getString():
 	englishWord = e1.get()
-	morseWord = morseToEnglish.main(englishWord)
+	morseWord = morseToEnglish.morseToEnglish(englishWord)
 	tk.Label(root, text = " \t \t \t \t ", font = '32').grid(row=2, column = 1)
 	tk.Label(root, text = morseWord, font = '60').grid(row=2, column = 1)
 	

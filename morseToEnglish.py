@@ -1,5 +1,5 @@
 
-def morseToEnglish(message):
+def translate(message):
 
 	translation = { "A" : ".-", "B" : "-...", "C" : "-.-.", "D" : "-..", "E" : ".", 
 			 "F" : "..-.", "G" : "--.", "H" : "....", "I" : "..", "J" : ".---",
@@ -15,7 +15,7 @@ def morseToEnglish(message):
 
 
  	
-def main(message):
+def morseToEnglish(message):
 
 	message = message.upper()
 	breakdown = list(message)
@@ -23,6 +23,6 @@ def main(message):
 
 
 	for length in breakdown:
-		answer += morseToEnglish(length)
+		answer += translate(length)
 
 	return answer

@@ -15,8 +15,8 @@ def getString():
 	if textchoice.get() == "convert to morse code":
 		morseWord = englishToMorse.englishToMorse(word)
 	
-	tk.Label(root, text = " \t \t \t \t ").place(relx = .6, rely = .5, relheight = .07)
-	tk.Label(root, text = morseWord, font = ("Helvetica", 15)).place(relx = .6, rely = .5, relheight = .07)
+	tk.Label(root, text = " \t \t \t \t \t \t \t \t \t \t ").place(relx = .4, rely = .5, relheight = .07)
+	tk.Label(root, text = morseWord, font = ("Helvetica", 15)).place(relx = .4, rely = .5, relheight = .07)
 
 
 #Create initial size of program 

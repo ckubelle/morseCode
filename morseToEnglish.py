@@ -24,6 +24,8 @@ def morseToEnglish(message):
 
     for length in breakdown: 
         answer += translate(length)
+        if answer == "invalid syntax try again":
+            break
 
     return answer
 
